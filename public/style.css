@@ -1,0 +1,480 @@
+body {
+    margin: auto;
+}
+
+/* NAVIGASI */
+
+
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
+nav a#pull {
+    display: none;
+   }
+
+   nav {
+    position: relative;
+   }
+
+   nav a {
+       display: inline;
+   }
+
+@media screen and (max-width: 600px) {
+    .geser {
+        margin-top: 50px;
+        margin-right:152px;
+    }
+
+    nav {
+        right: 0;
+        position: absolute;
+       height: auto;
+       border-bottom: 0;
+      }
+     nav ul {
+         margin-right: 50px;
+        width: 100%;
+        display: none;
+        height: auto;
+     }
+     nav li {
+         list-style: none;
+        width: 100%;
+        background: #000;
+      }
+
+      nav a:hover {
+          color: #007bff;
+      }
+
+     nav a {
+        padding-left: 15px;
+        text-align: left;
+       width: 100%;
+        text-indent: 25px;
+        color: #fff;
+     }
+     nav a#pull {
+      display: block;
+      width: 100%;
+      position: relative;
+      color: #ffffff;
+   }
+   nav a#pull:after {
+      content:"";
+      background: url(image/nav-icon.png) no-repeat;
+      width: 30px;
+      height: 30px;
+      display: inline-block;
+      position: absolute;
+      right: 15px;
+      top: 30px;
+    }
+  }
+
+
+
+
+
+
+/* HEADER */
+.header {
+    background-color: #000;
+    height: 80px;
+}
+
+.header img {
+    padding-top: 10px;
+    margin-left: 5px;
+    width: 200px;
+    float: left;
+}
+
+.header ul {
+    margin-left: 68%;
+}
+
+.header a {
+    font-family: Poppins, sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+/* PAGE ONE */
+.container-one {
+    margin-bottom: 50px;
+    height: auto;
+    background-size: cover;
+    background: url(image/bg-jumbotron.png);
+}
+
+.page-one {
+    text-align: center;
+    font-family: Heebo, sans-serif;
+    color: white;
+    margin: auto;
+    width: 80%;
+}
+
+.one-left h3 {
+    font-weight: 300;
+    font-size: 36px;
+}
+
+.one-left h2 {
+    margin-top: -25px;
+    font-size: 40px;
+}
+
+.one-right {
+    margin-bottom: 25px;
+    border-radius: 15px;
+    text-align: center;
+    height: 400px;
+    background-color: #000;
+    margin-top: 80px;
+}
+
+.one-right h3 {
+    text-align: center;
+}
+
+.one-right input {
+    border: none;
+    background-color: white;
+    margin-bottom: 25px;
+    height: 40px;
+    border-radius: 5px;
+    width: 90%;
+}
+
+::-webkit-input-placeholder {
+    color: black;
+    padding-left: 5px;
+}
+
+button {
+    color: white;
+    cursor: pointer;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 30px;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+/* PAGE TWO */
+
+.container-two {
+    font-family: Poppins, sans-serif;
+    height: auto;
+    margin: auto;
+    background-color: #fff;
+}
+
+.page-two {
+    padding-top: -90px;
+    margin: auto;
+    width: 90%;
+}
+
+.two-left img {
+    width: 300px;
+}
+
+.two-left p {
+    font-size: 18px;
+}
+
+.two-right img {
+    width: 310px;
+}
+
+
+/* OUR TEAM */
+.page-team h1 {
+    padding-top: 40px;
+    text-align: left;
+}
+
+.page-team hr {
+    width: 15%;
+    background: #fff;
+    margin-left: 0;
+    height: 2px;
+    margin-bottom: 30px;
+}
+
+.container-team {
+    font-family: Poppins;
+    color: white;
+    height: auto;
+    background-color: #000;
+}
+
+.page-team {
+    padding-bottom: 40px;
+    text-align: center;
+    margin: auto;
+    width: 80%;
+}
+
+.page-team img {
+    width: 100%;
+}
+
+.card {
+    border: #fff solid 2px;
+    padding: 10px;
+}
+
+/* TESTIMONIAL */
+#responsive-container {
+    font-family: Poppins;
+    color: white;
+    background: url(image/bg-testimonial.png);
+}
+
+.testimonial {
+    width: 80%;
+    margin: auto;
+}
+
+.testimonial hr {
+    width: 15%;
+    background-color: #fff;
+    height: 3px;
+    margin-left: 0px;
+    margin-bottom: 30px;
+}
+
+.container-client {
+    text-align: center;
+    opacity: 0.3;
+    margin: 70px 0px;
+}
+
+.container-client img {
+    width: 50%;
+}
+
+.page-client {
+    width: 80%;
+    margin: auto;
+}
+
+/* PAGE THREE */
+.container-three {
+    color: white;
+    height: auto;
+    font-family: Poppins;
+    background-color: #000;
+}
+
+.page-three {
+    text-align: center;
+    margin: auto;
+    width: 80%;
+}
+
+.page-three h1 {
+    padding-top: 40px;
+    text-align: left;
+}
+
+.page-three hr {
+    margin-bottom: 30px;
+    width: 15%;
+    margin-left: 0px;
+    height: 2px;
+    background-color: #fff; 
+}
+
+.page-three img {
+    margin-right: 10px;
+    width: 200px;
+}
+
+.three-left {
+    margin-bottom: 25px;
+}
+
+.three-left h3 {
+    margin-top: 0px;
+    font-size: 28px;
+}
+
+.three-left p {
+    margin-top: -25px;
+}
+
+.footer {
+    color: white;
+    height: 50px;
+    background-color: #000;
+}
+
+.footerr {
+    color: white;
+    height: 50px;
+    background-color: #000;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+}
+
+
+footer {
+    text-align: center;
+    padding-top: 12px;
+}
+
+/* PAGE FOUR */
+.container-four {
+    color: black;
+    font-family: Poppins;
+}
+
+.page-four {
+    width: 80%;
+    margin: auto;
+}
+
+.page-four hr {
+    width: 15%;
+    margin-left: 0px;
+    height: 3px;
+    background-color: #000;
+}
+
+.four-left img {
+    width: 100%;
+}
+
+/* CONTACT */
+.container-contact {
+    font-family: poppins;
+    background-color: #000;
+    color: white;
+}
+
+.contact {
+    width: 80%;
+    margin:auto;
+}
+
+.concontact h4 {
+    margin-bottom: 0px;
+    padding-top: -25px;
+}
+
+.concontact img {
+    padding-right: 5px;
+    float: left;
+    padding-bottom: 35px;
+    margin-top: 15px;
+    margin: 0px;
+    width: 50px;
+}
+
+.contact h1 {
+    padding-top: 40px;  
+}
+
+.contact hr {
+    width: 15%;
+    margin-left: 0px;
+    height: 2px;
+    background-color: #fff;
+}
+
+.concontact p {
+    font-size: 18px;
+    margin-left: 25px;
+}
+
+/* HALAMAN ABBOUT */
+.page-about {
+    text-align: center;
+}
+
+.page-about p {
+    font-size: 18px;
+    text-align: justify;
+}
+
+
+
+
+
+
+
+
+/* DESKTOP */
+@media (min-width: 992px) {
+    .header {
+        margin-top: -17px;
+    }
+
+    .header img {
+        margin-left: 170px;
+    }
+
+    .container-one {
+        height: 600px;
+    }
+
+    .one-left h3 {
+        margin-top: 150px;
+    }
+
+    .page-one {
+        text-align: left;
+    }
+
+    .page-two {
+        width: 80%;
+    }
+
+    .two-right img {
+        width: 400px;
+        float: right;
+    }
+
+    .page-three {
+        text-align: left;
+    }
+
+    .page-three img {
+        width: 150px;
+        float: left;
+    }
+
+    .page-four img {
+        width: 350px;
+    }
+
+    .about {
+        margin-top: 50px;
+    }
+
+    .header li {
+        margin-top: 25px;
+        list-style: none;
+        float: left;    
+        padding-right: 30px;
+    }
+}
